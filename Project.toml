@@ -1,0 +1,13 @@
+name = "VisualizeMotifs"
+uuid = "dc339a6f-2fa1-401a-9066-9c0d413e71da"
+authors = ["Shane Kuei-Hsien Chu (skchu@wustl.edu)"]
+version = "0.1.0"
+
+[compat]
+julia = "1.8.2"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
