@@ -3,8 +3,19 @@ uuid = "dc339a6f-2fa1-401a-9066-9c0d413e71da"
 authors = ["Shane Kuei-Hsien Chu (skchu@wustl.edu)"]
 version = "0.1.0"
 
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+GreedyAlign = "e9a496d4-a0ac-4054-a7cc-e43b6064761e"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+Mustache = "ffc61752-8dc7-55ee-8c37-f3e9cdd09e70"
+SimDNA = "f325a362-c78e-481f-886d-076c680a7e4a"
+
 [compat]
+JLD2 = "0.4.29"
+Mustache = "1.0.14"
+SimDNA = "0.1.7"
 julia = "1.8.2"
+DataFrames = "1.4.4"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
